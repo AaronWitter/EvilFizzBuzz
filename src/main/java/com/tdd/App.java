@@ -27,4 +27,12 @@ public class App
 
     }
 
+
+    public  String checkBuzz(Integer  no) {
+        if (no % 5 == 0) {
+            return "Buzz";
+        } else {
+            return no.toString();
+        }
+    }
 }
