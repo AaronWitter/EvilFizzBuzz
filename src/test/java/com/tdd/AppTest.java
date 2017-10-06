@@ -25,9 +25,10 @@ public class AppTest{
     public void checkNumberDivisbleByThreeAndFive()
     {
         App app = new App();
-        assertEquals("FizzBuzz", app.checkNumber(6));
+        assertEquals("FizzBuzz", app.checkNumber(15));
     }
 
+    @Test
     public void chedkNumberNotDivisbleByThreeAndFive()
     {
         App app = new App();
